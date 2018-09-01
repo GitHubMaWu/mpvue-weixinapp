@@ -1,0 +1,14 @@
+<template name="index$21e99c7d">
+  <view class="_div data-v-a3422d6c counter-warp">
+    <view class="_p data-v-a3422d6c">Vuex counter：{{ enene }}</view>
+    <view class="_div data-v-a3422d6c"> 请输入:
+      <input value="{{name}}" bindinput="handleProxy" type="text" placeholder="请输入书名" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-a3422d6c" />
+      <button class="_button data-v-a3422d6c weui-btn mini-btn" type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">按钮</button>
+    </view>
+    <view class="_p data-v-a3422d6c">
+      <button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-a3422d6c">+</button>
+      <button bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_button data-v-a3422d6c">-</button>
+    </view>
+    <navigator url="/pages/index/main" class="_a data-v-a3422d6c home">去往首页</navigator>
+  </view>
+</template>

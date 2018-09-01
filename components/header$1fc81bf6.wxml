@@ -1,0 +1,8 @@
+<template name="header$1fc81bf6">
+  <view class="_div data-v-084ca108 header-cl">
+    <view class="_div data-v-084ca108"> 请输入:
+      <input value="{{name}}" bindinput="handleProxy" type="text" placeholder="请输入书名" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-084ca108" />
+      <button class="_button data-v-084ca108 weui-btn mini-btn" type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">按钮</button>
+    </view>
+  </view>
+</template>

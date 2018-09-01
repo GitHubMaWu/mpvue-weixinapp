@@ -1,0 +1,19 @@
+<template name="index$1e9c9380">
+  <view class="_div data-v-39d76614 weui-search-bar">
+    <view class="_div data-v-39d76614 weui-search-bar__form">
+      <view class="_div data-v-39d76614 weui-search-bar__box">
+        <icon class="_icon data-v-39d76614 weui-icon-search_in-box" type="search" size="14"></icon>
+        <input bindconfirm="handleProxy" class="_input data-v-39d76614 weui-search-bar__input" confirm-type="{{confirmType}}" placeholder="{{placeholder}}" value="{{currentValue}}" bindinput="handleProxy" focus="{{visible}}" type="text" data-eventid="{{'0'}}"
+          data-comkey="{{$k}}" />
+        <view bindtap="handleProxy" class="_div data-v-39d76614 weui-icon-clear" wx:if="{{!!currentValue}}" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <icon type="clear" size="14" class="_icon data-v-39d76614"></icon>
+        </view>
+      </view>
+      <label class="_label data-v-39d76614 weui-search-bar__label" bindtap="handleProxy" wx:if="{{!visible}}" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+        <icon class="_icon data-v-39d76614 weui-icon-search" type="search" size="14"></icon>
+        <view class="_div data-v-39d76614 weui-search-bar__text">{{placeholder}}</view>
+      </label>
+    </view>
+    <view bindtap="handleProxy" class="_div data-v-39d76614 weui-search-bar__cancel-btn" wx:if="{{visible}}" data-eventid="{{'3'}}" data-comkey="{{$k}}">{{cancelText}}</view>
+  </view>
+</template>

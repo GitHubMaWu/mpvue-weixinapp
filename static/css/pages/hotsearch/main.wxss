@@ -1,0 +1,43 @@
+@import "/static/css/vendor.wxss";
+
+.pagec {
+  box-orient: horizontal;
+}
+.header-cl {
+  height: 330rpx;
+  border-bottom-style: outset;
+}
+.box-list {
+  display: -webkit-box;
+  width: 750rpx;
+}
+.box-img {
+  width: 120rpx;
+  -webkit-box-flex: 1.1;
+  height: 240rpx;
+}
+.box-introduce {
+  -webkit-box-flex: 1.9;
+  height: 240rpx;
+  display: box;
+  box-orient: horizontal;
+  border-bottom-style: outset;
+}
+.box-key-list {
+  margin-top: 3rpx;
+  margin-left: 40rpx;
+  -webkit-box-flex: 1.0;
+  font-size: 30rpx;
+}
+.enen {
+  font-weight: bold;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.img-test {
+  margin-left: 8rpx;
+  margin-top: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+}

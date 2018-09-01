@@ -1,0 +1,24 @@
+<template name="booklist$6928a9a0">
+  <view class="_div data-v-2d331594">
+    <view bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{bolist}}" wx:for-index="index" wx:for-item="item" class="_div data-v-2d331594">
+      <navigator class="_a data-v-2d331594 box-list" url="{{'/pages/exhibition/main?id='+item.id}}">
+        <view class="_div data-v-2d331594 box-img">
+          <image class="_img data-v-2d331594 img-test" src="{{item.coverUrl}}"></image>
+        </view>
+        <view class="_div data-v-2d331594 box-introduce">
+          <view class="_div data-v-2d331594 enen">{{item.name}}</view>
+          <view class="_div data-v-2d331594 box-key-list"> 作者：
+            <label class="_span data-v-2d331594">{{item.author}}</label>
+          </view>
+          <view class="_div data-v-2d331594 box-key-list">出版社：
+            <label class="_span data-v-2d331594">{{item.press}}</label>
+          </view>
+          <view class="_div data-v-2d331594 box-key-list">状态：
+            <icon wx:if="{{item.status == 1}}" type="success" size="20" class="_icon data-v-2d331594"></icon>
+            <icon wx:if="{{item.status == 0}}" type="warn" size="20" class="_icon data-v-2d331594"></icon>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,14 @@
+<import src="booklist$6928a9a0" />
+<template name="index$4be5a294">
+  <view class="_div data-v-f098a8fa pagec">
+    <view class="_div data-v-f098a8fa">
+      <view class="_div data-v-f098a8fa"> 请输入:
+        <input value="{{name}}" bindinput="handleProxy" type="text" placeholder="请输入书名" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-f098a8fa" />
+        <button class="_button data-v-f098a8fa weui-btn mini-btn" type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">按钮</button>
+      </view>
+    </view>
+    <view class="_div data-v-f098a8fa">
+      <template data="{{...$root[$kk+'0'], $root}}" is="booklist$6928a9a0"></template>
+    </view>
+  </view>
+</template>

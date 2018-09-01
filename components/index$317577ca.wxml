@@ -1,0 +1,31 @@
+<template name="index$317577ca">
+  <view class="_div data-v-73e91e17">
+    <view class="_div data-v-73e91e17 bsss">
+      <view class="_div data-v-73e91e17 page__bd page__bd_spacing">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" bindchange="handleProxy" bindanimationfinish="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_swiper data-v-73e91e17">
+          <view wx:key="index" key="{{index}}" wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item" class="_div data-v-73e91e17">
+            <swiper-item class="_swiper-item data-v-73e91e17">
+              <image src="{{item}}" class="_image data-v-73e91e17 slide-image"></image>
+            </swiper-item>
+          </view>
+        </swiper>
+      </view>
+    </view>
+    <view class="_div data-v-73e91e17 box-list">
+      <view class="_div data-v-73e91e17 box-introduce">
+        <view class="_div data-v-73e91e17 enen">{{name}}</view>
+        <view class="_div data-v-73e91e17 box-key-list"> 作者：
+          <label class="_span data-v-73e91e17">{{msg.author}}</label>
+        </view>
+        <view class="_div data-v-73e91e17 box-key-list">出版社：
+          <label class="_span data-v-73e91e17">{{msg.press}}</label>
+        </view>
+        <view class="_div data-v-73e91e17 box-key-list">状态：
+          <icon wx:if="{{msg.status == 1}}" type="success" size="20" class="_icon data-v-73e91e17"></icon>
+          <icon wx:if="{{msg.status == 0}}" type="warn" size="20" class="_icon data-v-73e91e17"></icon>
+        </view>
+        <view class="_div data-v-73e91e17 ssss">内容简介：{{msg.info}} </view>
+      </view>
+    </view>
+  </view>
+</template>

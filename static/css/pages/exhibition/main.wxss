@@ -1,0 +1,51 @@
+@import "/static/css/vendor.wxss";
+
+.bsss {
+  border-bottom-style: outset;
+  margin-left: 75rpx;
+  height: 360rpx;
+  width: 600rpx;
+}
+.box-list {
+  box-orient: horizontal;
+  width: 710rpx;
+}
+.box-introduce {
+  height: 400rpx;
+  display: box;
+  box-orient: horizontal;
+}
+.box-key-list {
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-flex: 1.0;
+  font-size: 40rpx;
+  border-bottom-style: outset;
+}
+.enen {
+  font-weight: bold;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.img-test {
+  margin-left: 8rpx;
+  margin-top: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.ssss {
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-flex: 1.0;
+  font-size: 30rpx;
+}
+.wxapp-vue {
+  height: 800rpx;
+}
